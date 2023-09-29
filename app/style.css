@@ -1,5 +1,13 @@
+body {
+  font-family: sans-serif;
+}
+h1 {
+  color: teal;
+}
 select#dog-select {
   text-transform: capitalize;
+  color: blue;
+  width: 200px;
 }
 .current-dog {
   height: 250px !important;
@@ -24,4 +32,7 @@ select#dog-select {
 #load {
   text-align: center;
   font-size: 50px;
+}
+label {
+  color: blueviolet;
 }
