@@ -1,8 +1,27 @@
-#load {
+select#dog-select {
+  text-transform: capitalize;
+}
+.current-dog {
+  height: 250px !important;
+  width: 250px !important;
+  margin: 40px auto !important;
+}
+
+.panel {
   text-align: center;
-  font-size: 40px;
+}
+#fetchImage {
+  background-color: dodgerblue;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
 }
 #container {
-  margin-top: 50px;
+  display: none;
+}
+#load {
   text-align: center;
+  font-size: 50px;
 }

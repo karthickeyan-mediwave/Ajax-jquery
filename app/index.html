@@ -9,25 +9,19 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <p id="load">loading .....</p>
-
-    <div id="container">
-      <h2>select dog names</h2>
-      <select name="" id="selection">
-        <option
-          value="https://images.dog.ceo/breeds/akita/An_Akita_Inu_resting.jpg"
-        >
-          affenpinscher
-        </option>
-        <option
-          value="https://images.dog.ceo/breeds/akita/An_Akita_Inu_resting.jpg"
-        >
-          akita
-        </option>
-        <option value="baz">3</option>
-      </select>
-      <button value="submit" id="getimg">Get image of dog</button>
-      <div></div>
+    <div class="panel" id="container">
+      <h1>DOG IMAGES GET HERE</h1>
+      <div class="dog-div">
+        <label for="dogs"> Please Select</label>
+        <select name="dogs" id="dog-select">
+          <option value="">Select Dog Type</option>
+        </select>
+      </div>
+      <button id="fetchImage">Get dog img</button>
+      <div class="current-dog">
+        <img id="dog-image" src="" />
+      </div>
     </div>
+    <div id="load">Loading....</div>
   </body>
 </html>
